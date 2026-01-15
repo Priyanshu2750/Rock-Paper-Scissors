@@ -5,4 +5,10 @@ function getComputerChoice() {
   else if (choice === 2) return "Scissors";
 }
 
+function getHumanChoice() {
+  let humanChoice = prompt("Enter your choice (Rock, Paper or Scissors)", "");
+  return humanChoice;
+}
+
 console.log(getComputerChoice());
+console.log(getHumanChoice());
